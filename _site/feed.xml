@@ -5,9 +5,69 @@
     <description>:::::::::::::: description?</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 10 Sep 2022 21:46:49 +0900</pubDate>
-    <lastBuildDate>Sat, 10 Sep 2022 21:46:49 +0900</lastBuildDate>
+    <pubDate>Sun, 11 Sep 2022 19:31:18 +0900</pubDate>
+    <lastBuildDate>Sun, 11 Sep 2022 19:31:18 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>「Functional Programming for Java Developers」2 What is Functional Programming?</title>
+        <description>&lt;h4 id=&quot;1-변경-가능한-상태-피하기&quot;&gt;1. 변경 가능한 상태 피하기&lt;/h4&gt;
+
+&lt;p&gt;함수형 프로그래밍에는 기본 원리들이 있다.&lt;/p&gt;
+
+&lt;p&gt;그 중 첫번째는 변경 불가능한 값(immutable value)을 이용하는 것이다.&lt;/p&gt;
+
+&lt;p&gt;값이 변경되는 것을 허용할 경우 멀티스레드 프로그래밍이 어려워지기 때문이다.&lt;/p&gt;
+
+&lt;p&gt;따라서 값을 변경 불가능하게 만들어서 동기화와 관련된 문제를 없앨 수 있다.&lt;/p&gt;
+
+&lt;h4 id=&quot;2-1등-시민으로서의-함수&quot;&gt;2. 1등 시민으로서의 함수&lt;/h4&gt;
+
+&lt;p&gt;자바에서는 객체와 원시 값들이 1등 시민으로 대접 받는다.&lt;/p&gt;
+
+&lt;p&gt;객체와 원시 값들은 메서드에게 전달되고, 그 값은 리턴되고, 리턴된 값을 다른 변수에 할당한다.&lt;/p&gt;
+
+&lt;p&gt;자바에서 함수는 1등 시민이 아니다. (자바는 메서드만 포함하고 있다. 메서드는 자바에서 1등 시민이 아니다.)&lt;/p&gt;
+
+&lt;p&gt;메서드를 다른 메서드에 인수로 전달할 수 있는가? 리턴 받을 수 있는가? 다른 변수의 값으로 할당할 수 있는가?&lt;/p&gt;
+
+&lt;p&gt;가능하지 않다.&lt;/p&gt;
+
+&lt;p&gt;대신 익명 내부 클래스가 이런 기능을 보완해주는 wrapper 역할을 수행하공 ㅣㅆ다.&lt;/p&gt;
+
+&lt;p&gt;함수형 프로그래밍은 함수가 수행하는 일이 무엇인지만 알게 하면 충분하다.&lt;/p&gt;
+
+&lt;h4 id=&quot;3-람다와-클로저&quot;&gt;3. 람다와 클로저&lt;/h4&gt;
+
+&lt;h4 id=&quot;4-고계함수&quot;&gt;4. 고계함수&lt;/h4&gt;
+
+&lt;h4 id=&quot;5-부수효과가-없는-함수&quot;&gt;5. 부수효과가 없는 함수&lt;/h4&gt;
+
+&lt;h4 id=&quot;6-재귀&quot;&gt;6. 재귀&lt;/h4&gt;
+
+&lt;h4 id=&quot;7-게으른-vs-부지런한-계산&quot;&gt;7. 게으른 vs 부지런한 계산&lt;/h4&gt;
+
+&lt;h4 id=&quot;8-선언적-vs-명령형-프로그래밍&quot;&gt;8. 선언적 vs 명령형 프로그래밍&lt;/h4&gt;
+
+</description>
+        <pubDate>Sat, 10 Sep 2022 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/2022/09/10/functional-programming-02-01/</link>
+        <guid isPermaLink="true">http://localhost:4000/2022/09/10/functional-programming-02-01/</guid>
+        
+        <category>java</category>
+        
+        <category>functional-programming</category>
+        
+        <category>functional-programming-for-java-developers</category>
+        
+        <category>O'REILLY</category>
+        
+        <category>함수형프로그래밍</category>
+        
+        <category>오렐리</category>
+        
+        
+      </item>
     
       <item>
         <title>「Functional Programming for Java Developers」1 Why Functional Programming?</title>
@@ -15,7 +75,7 @@
 &lt;p&gt;동시성 문제에 접근하기 위한 최선의 방법이 함수형 프로그래밍이라고들 한다.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;동시성 ? :&lt;/li&gt;
+  &lt;li&gt;동시성 문제 : 동시성 문제란 두 개 이상의 세션이 공통된 자원에 대해 모두 읽고 쓰는 작업 (Read→Write) 을 하려고 하는 경우 발생할 수 있는 문제&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;그만큼 함수형 프로그래밍은 동시성에 대한 명확한 원리를 제공하였고, 높은 수준의 추상적 개념을 탄생시켰다.&lt;/p&gt;
