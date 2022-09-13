@@ -4,7 +4,6 @@ subtitle: "예외는 진짜 예외 상황에만 사용하라"
 layout: post
 author: "OG"
 header-style: text
-catalog:      true
 tags:
 - java
 - effective-java

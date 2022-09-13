@@ -4,7 +4,7 @@ subtitle: "변경 가능한 상태 피하기"
 layout: post
 author: "OG"
 header-style: text
-catalog:      true
+catalog: true
 tags:
 - java
 - functional-programming

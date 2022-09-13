@@ -4,7 +4,6 @@ subtitle: "클래스와 멤버의 접근성을 제한하라"
 layout: post
 author: "OG"
 header-style: text
-catalog:      true
 tags:
   - java
   - effective-java

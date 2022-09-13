@@ -4,7 +4,6 @@ subtitle: "public 클래스에서는 public 필드가 아닌 접근자 메서드
 layout: post
 author: "OG"
 header-style: text
-catalog:      true
 tags:
 - java
 - effective-java

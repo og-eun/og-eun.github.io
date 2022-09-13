@@ -4,7 +4,7 @@ subtitle: "왜 함수형 프로그래밍을 배워야 하는가?"
 layout: post
 author: "OG"
 header-style: text
-catalog:      true
+catalog: true
 tags:
 - java
 - functional-programming
