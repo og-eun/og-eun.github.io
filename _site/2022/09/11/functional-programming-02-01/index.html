@@ -15,10 +15,10 @@
         content="「Functional Programming for Java Developers」2 What is Functional Programming? - 끄적끄적 | OG Blog">
     
     <meta property="og:type" content="article">
-    <meta property="og:description" content="1. 변경 가능한 상태 피하기
+    <meta property="og:description" content="변경 가능한 상태 피하기
 ">
     
-    <meta property="article:published_time" content=" 2022-09-10T00:00:00Z">
+    <meta property="article:published_time" content=" 2022-09-11T00:00:00Z">
     
     
     <meta property="article:author" content="OG">
@@ -30,15 +30,11 @@
     
     <meta property="article:tag" content="functional-programming-for-java-developers">
     
-    <meta property="article:tag" content="O'REILLY">
-    
     <meta property="article:tag" content="함수형프로그래밍">
-    
-    <meta property="article:tag" content="오렐리">
     
     
     <meta property="og:image" content="http://localhost:4000img/avatar-img.png">
-    <meta property="og:url" content="http://localhost:4000/2022/09/10/functional-programming-02-01/">
+    <meta property="og:url" content="http://localhost:4000/2022/09/11/functional-programming-02-01/">
     <meta property="og:site_name" content="끄적끄적 | OG Blog">
 
     <title>「Functional Programming for Java Developers」2 What is Functional Programming? - 끄적끄적 | OG Blog</title>
@@ -50,7 +46,7 @@
     <link rel="shortcut icon" href="/img/favicon.ico">
 
     <!-- Canonical URL -->
-    <link rel="canonical" href="http://localhost:4000/2022/09/10/functional-programming-02-01/">
+    <link rel="canonical" href="http://localhost:4000/2022/09/11/functional-programming-02-01/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href=" /css/bootstrap.min.css">
@@ -251,17 +247,13 @@
                         
                         <a class="tag" href="/archive/?tag=functional-programming-for-java-developers" title="functional-programming-for-java-developers">functional-programming-for-java-developers</a>
                         
-                        <a class="tag" href="/archive/?tag=O%27REILLY" title="O'REILLY">O'REILLY</a>
-                        
                         <a class="tag" href="/archive/?tag=%ED%95%A8%EC%88%98%ED%98%95%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D" title="함수형프로그래밍">함수형프로그래밍</a>
-                        
-                        <a class="tag" href="/archive/?tag=%EC%98%A4%EB%A0%90%EB%A6%AC" title="오렐리">오렐리</a>
                         
                     </div>
                     <h1>「Functional Programming for Java Developers」2 What is Functional Programming?</h1>
                     
-                    <h2 class="subheading">변경 가능한 상태 피하기</h2>
-                    <span class="meta">Posted by OG on September 10, 2022</span>
+                    <h2 class="subheading">기본 원리 : 변경 가능한 상태 피하기</h2>
+                    <span class="meta">Posted by OG on September 11, 2022</span>
                 </div>
             </div>
         </div>
@@ -288,7 +280,7 @@
                 <!-- Multi-Lingual -->
                 
 
-				<h4 id="1-변경-가능한-상태-피하기">1. 변경 가능한 상태 피하기</h4>
+				<h4 id="변경-가능한-상태-피하기">변경 가능한 상태 피하기</h4>
 
 <p>함수형 프로그래밍에는 기본 원리들이 있다.</p>
 
@@ -297,35 +289,6 @@
 <p>값이 변경되는 것을 허용할 경우 멀티스레드 프로그래밍이 어려워지기 때문이다.</p>
 
 <p>따라서 값을 변경 불가능하게 만들어서 동기화와 관련된 문제를 없앨 수 있다.</p>
-
-<h4 id="2-1등-시민으로서의-함수">2. 1등 시민으로서의 함수</h4>
-
-<p>자바에서는 객체와 원시 값들이 1등 시민으로 대접 받는다.</p>
-
-<p>객체와 원시 값들은 메서드에게 전달되고, 그 값은 리턴되고, 리턴된 값을 다른 변수에 할당한다.</p>
-
-<p>자바에서 함수는 1등 시민이 아니다. (자바는 메서드만 포함하고 있다. 메서드는 자바에서 1등 시민이 아니다.)</p>
-
-<p>메서드를 다른 메서드에 인수로 전달할 수 있는가? 리턴 받을 수 있는가? 다른 변수의 값으로 할당할 수 있는가?</p>
-
-<p>가능하지 않다.</p>
-
-<p>대신 익명 내부 클래스가 이런 기능을 보완해주는 wrapper 역할을 수행하공 ㅣㅆ다.</p>
-
-<p>함수형 프로그래밍은 함수가 수행하는 일이 무엇인지만 알게 하면 충분하다.</p>
-
-<h4 id="3-람다와-클로저">3. 람다와 클로저</h4>
-
-<h4 id="4-고계함수">4. 고계함수</h4>
-
-<h4 id="5-부수효과가-없는-함수">5. 부수효과가 없는 함수</h4>
-
-<h4 id="6-재귀">6. 재귀</h4>
-
-<h4 id="7-게으른-vs-부지런한-계산">7. 게으른 vs 부지런한 계산</h4>
-
-<h4 id="8-선언적-vs-명령형-프로그래밍">8. 선언적 vs 명령형 프로그래밍</h4>
-
 
 
                 <hr style="visibility: hidden;">
@@ -340,9 +303,9 @@
                     
                     
                     <li class="next">
-                        <a href="/2022/09/13/converting-circular-structure-to-JSON/" data-toggle="tooltip" data-placement="top" title="ERROR: Converting circular structure to JSON">
+                        <a href="/2022/09/12/functional-programming-02-02/" data-toggle="tooltip" data-placement="top" title="「Functional Programming for Java Developers」2 What is Functional Programming?">
                         Next<br>
-                        <span>ERROR: Converting circular structure to JSON</span>
+                        <span>「Functional Programming for Java Developers」2 What is Functional Programming?</span>
                         </a>
                     </li>
                     
@@ -396,47 +359,37 @@
                 <a data-sort="0002" 
                     href="/archive/?tag=java"
                     title="java"
-                    rel="5">java</a>
-        
-                <a data-sort="0004" 
-                    href="/archive/?tag=%EC%9D%B4%ED%8C%A9%ED%8B%B0%EB%B8%8C%EC%9E%90%EB%B0%94"
-                    title="이팩티브자바"
-                    rel="3">이팩티브자바</a>
-        
-                <a data-sort="0004" 
-                    href="/archive/?tag=%EC%9E%90%EB%B0%94"
-                    title="자바"
-                    rel="3">자바</a>
-        
-                <a data-sort="0004" 
-                    href="/archive/?tag=effective-java"
-                    title="effective-java"
-                    rel="3">effective-java</a>
-        
-                <a data-sort="0005" 
-                    href="/archive/?tag=%EC%98%A4%EB%A0%90%EB%A6%AC"
-                    title="오렐리"
-                    rel="2">오렐리</a>
+                    rel="7">java</a>
         
                 <a data-sort="0005" 
                     href="/archive/?tag=%ED%95%A8%EC%88%98%ED%98%95%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D"
                     title="함수형프로그래밍"
-                    rel="2">함수형프로그래밍</a>
-        
-                <a data-sort="0005" 
-                    href="/archive/?tag=O%27REILLY"
-                    title="O'REILLY"
-                    rel="2">O'REILLY</a>
+                    rel="4">함수형프로그래밍</a>
         
                 <a data-sort="0005" 
                     href="/archive/?tag=functional-programming"
                     title="functional-programming"
-                    rel="2">functional-programming</a>
+                    rel="4">functional-programming</a>
         
                 <a data-sort="0005" 
                     href="/archive/?tag=functional-programming-for-java-developers"
                     title="functional-programming-for-java-developers"
-                    rel="2">functional-programming-for-java-developers</a>
+                    rel="4">functional-programming-for-java-developers</a>
+        
+                <a data-sort="0006" 
+                    href="/archive/?tag=%EC%9D%B4%ED%8C%A9%ED%8B%B0%EB%B8%8C%EC%9E%90%EB%B0%94"
+                    title="이팩티브자바"
+                    rel="3">이팩티브자바</a>
+        
+                <a data-sort="0006" 
+                    href="/archive/?tag=%EC%9E%90%EB%B0%94"
+                    title="자바"
+                    rel="3">자바</a>
+        
+                <a data-sort="0006" 
+                    href="/archive/?tag=effective-java"
+                    title="effective-java"
+                    rel="3">effective-java</a>
     </div>
 </section>
 

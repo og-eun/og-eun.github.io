@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "「Functional Programming for Java Developers」2 What is Functional Programming?",
+      "subtitle" : "기본 원리 : 람다와 클로저 &amp; 고계함수",
+      "tags"     : "java, functional-programming, functional-programming-for-java-developers, 함수형프로그래밍",
+      "url"      : "/2022/09/14/functional-programming-02-02/",
+      "date"     : "2022-09-14 00:00:00 +0900"
+    } ,
+  
+    {
       "title"    : "ERROR: Converting circular structure to JSON",
       "subtitle" : "순환 참조 시 발생하는 에러",
       "tags"     : "error, java-script, 에러, 자바스크립트",
@@ -10,16 +18,24 @@
   
     {
       "title"    : "「Functional Programming for Java Developers」2 What is Functional Programming?",
-      "subtitle" : "변경 가능한 상태 피하기",
-      "tags"     : "java, functional-programming, functional-programming-for-java-developers, O'REILLY, 함수형프로그래밍, 오렐리",
-      "url"      : "/2022/09/10/functional-programming-02-01/",
-      "date"     : "2022-09-10 00:00:00 +0900"
+      "subtitle" : "기본 원리 : 1등 시민으로서의 함수",
+      "tags"     : "java, functional-programming, functional-programming-for-java-developers, 함수형프로그래밍",
+      "url"      : "/2022/09/12/functional-programming-02-02/",
+      "date"     : "2022-09-12 00:00:00 +0900"
+    } ,
+  
+    {
+      "title"    : "「Functional Programming for Java Developers」2 What is Functional Programming?",
+      "subtitle" : "기본 원리 : 변경 가능한 상태 피하기",
+      "tags"     : "java, functional-programming, functional-programming-for-java-developers, 함수형프로그래밍",
+      "url"      : "/2022/09/11/functional-programming-02-01/",
+      "date"     : "2022-09-11 00:00:00 +0900"
     } ,
   
     {
       "title"    : "「Functional Programming for Java Developers」1 Why Functional Programming?",
       "subtitle" : "왜 함수형 프로그래밍을 배워야 하는가?",
-      "tags"     : "java, functional-programming, functional-programming-for-java-developers, O'REILLY, 함수형프로그래밍, 오렐리",
+      "tags"     : "java, functional-programming, functional-programming-for-java-developers, 함수형프로그래밍",
       "url"      : "/2022/09/10/functional-programming-01-01/",
       "date"     : "2022-09-10 00:00:00 +0900"
     } ,
