@@ -37,6 +37,10 @@ ERP(SAP) 개발로 시작하여 Web FullStack을 거쳐 Backend로 차곡차곡 
 > 독서모임 커뮤니티 서비스 **트레바리** 운영 스타트업
 > [🔗 TREVARI](https://trevari.co.kr/)
 >
+ 
+<details>
+<summary>상세 내용 확인</summary>
+<div markdown="1">
 
 #### **{ 트레바리 SMS 시스템 개선 프로젝트 }**
 
@@ -55,6 +59,9 @@ ERP(SAP) 개발로 시작하여 Web FullStack을 거쳐 Backend로 차곡차곡 
 - PostgreSQL, DataGrip
 - AWS, Github, Jira, Confluence, Lucidchart, Notion, Slack
 
+</div>
+</details>
+
 ---
 
 ### 동국시스템즈**.**
@@ -62,11 +69,16 @@ ERP(SAP) 개발로 시작하여 Web FullStack을 거쳐 Backend로 차곡차곡 
 > **SAP - Financial Module Engineer
 WEB - Fullstack Engineer**
 >
+>
+> **2019.05 - 2020.09**
+> 
+> 동국제강 그룹 IT 계열사
+> **[🔗 동국시스템즈](http://www.dkunc.com/#/main)**
+>
 
-**2019.05 - 2020.09**
-
-동국제강 그룹 IT 계열사
-**[🔗 동국시스템즈](http://www.dkunc.com/#/main)**
+<details>
+<summary>상세 내용 확인</summary>
+<div markdown="1">
 
 #### **{ 동국제강 SAP 재무 회계 기능 WEB 전환 프로젝트 }**
 
@@ -76,10 +88,10 @@ WEB - Fullstack Engineer**
 ##### **What I did.**
 
 - Frontend
-    - 화면 디자인 및 UI / UX 구상
-    - 화면 개발
+  - 화면 디자인 및 UI / UX 구상
+  - 화면 개발
 - Backend
-    - API 설계 및 개발
+  - API 설계 및 개발
 
 ##### **Stack.**
 
@@ -88,10 +100,19 @@ WEB - Fullstack Engineer**
 - Eclipse
 - WAS, SVN
 
+</div>
+</details>
+
+
 ---
-### Others
+### Others.
+
+<details>
+<summary>상세 내용 확인</summary>
+<div markdown="1">
+
 #### 로앤컴퍼니**.**
-> 
+>
 > 누적 방문자 수 2,331만 명, 누적 상담 수 64만 건의 국내 1위 법률 플랫폼 **로톡** 운영 스타트업
 > [🔗 LawTalk](https://www.lawtalk.co.kr/)
 >
@@ -175,6 +196,11 @@ WEB - Fullstack Engineer**
 - PyCharm
 - NoSQL, Robo3T
 - AWS, Github, Jenkins, Jira, Confluence, Slack
+
+
+</div>
+</details>
+
 
 ---
 
