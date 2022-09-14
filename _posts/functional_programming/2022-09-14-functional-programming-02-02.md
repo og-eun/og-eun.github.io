@@ -1,6 +1,6 @@
 ---
 title: "「Functional Programming for Java Developers」2 What is Functional Programming?"
-subtitle: "람다와 클로저 & 고계함수"
+subtitle: "기본 원리 : 람다와 클로저 & 고계함수"
 layout: post
 author: "OG"
 header-style: text

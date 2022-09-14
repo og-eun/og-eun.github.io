@@ -1,6 +1,6 @@
 ---
 title: "「Functional Programming for Java Developers」2 What is Functional Programming?"
-subtitle: "변경 가능한 상태 피하기"
+subtitle: "기본 원리 : 변경 가능한 상태 피하기"
 layout: post
 author: "OG"
 header-style: text
