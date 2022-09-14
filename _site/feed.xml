@@ -5,9 +5,54 @@
     <description>:::::::::::::: description?</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 11 Sep 2022 19:31:18 +0900</pubDate>
-    <lastBuildDate>Sun, 11 Sep 2022 19:31:18 +0900</lastBuildDate>
+    <pubDate>Wed, 14 Sep 2022 19:14:56 +0900</pubDate>
+    <lastBuildDate>Wed, 14 Sep 2022 19:14:56 +0900</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>ERROR: Converting circular structure to JSON</title>
+        <description>&lt;h3 id=&quot;converting-circular-structure-to-json&quot;&gt;Converting circular structure to JSON&lt;/h3&gt;
+&lt;p&gt;테스트를 하다 위 에러를 발견하였다.
+구글링을 통해 순환 참조 시 발생하는 에러임을 확인하였다.&lt;/p&gt;
+
+&lt;h3 id=&quot;주로-발생하는-상황&quot;&gt;주로 발생하는 상황&lt;/h3&gt;
+&lt;p&gt;다른 사람들의 얘기를 들어보니 주로 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Object&lt;/code&gt; 를 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;JSON.stringify()&lt;/code&gt; 할 때 발생하였고 역시나 내 상황도 마찬가지였다.&lt;/p&gt;
+
+&lt;p&gt;에러를 파싱할 때 객체 자체를 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;JSON.stringify()&lt;/code&gt; 하고 있었는데 이때 해당 에러가 발생했다.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;JSON.stringify()&lt;/code&gt; 부분을 해결하고 나니 진짜 에러가 나는 원인을 알 수 있었다.&lt;/p&gt;
+
+&lt;h3 id=&quot;what&quot;&gt;What&lt;/h3&gt;
+
+&lt;p&gt;선회하는 구조를 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;JSON&lt;/code&gt; 으로 변환하려고 해서 발생하는 에러&lt;/p&gt;
+
+&lt;h3 id=&quot;why&quot;&gt;Why&lt;/h3&gt;
+
+&lt;p&gt;순환 참조 시 발생&lt;/p&gt;
+
+&lt;h3 id=&quot;how-to&quot;&gt;How to&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;순환 종속성 제거&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;flatted package&lt;/code&gt; 사용&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;console.log()&lt;/code&gt; 제거&lt;/li&gt;
+&lt;/ol&gt;
+
+</description>
+        <pubDate>Tue, 13 Sep 2022 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/2022/09/13/converting-circular-structure-to-JSON/</link>
+        <guid isPermaLink="true">http://localhost:4000/2022/09/13/converting-circular-structure-to-JSON/</guid>
+        
+        <category>error</category>
+        
+        <category>java-script</category>
+        
+        <category>에러</category>
+        
+        <category>자바스크립트</category>
+        
+        
+      </item>
     
       <item>
         <title>「Functional Programming for Java Developers」2 What is Functional Programming?</title>

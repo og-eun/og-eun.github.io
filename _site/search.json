@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "ERROR: Converting circular structure to JSON",
+      "subtitle" : "순환 참조 시 발생하는 에러",
+      "tags"     : "error, java-script, 에러, 자바스크립트",
+      "url"      : "/2022/09/13/converting-circular-structure-to-JSON/",
+      "date"     : "2022-09-13 00:00:00 +0900"
+    } ,
+  
+    {
       "title"    : "「Functional Programming for Java Developers」2 What is Functional Programming?",
       "subtitle" : "변경 가능한 상태 피하기",
       "tags"     : "java, functional-programming, functional-programming-for-java-developers, O'REILLY, 함수형프로그래밍, 오렐리",
