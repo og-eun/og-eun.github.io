@@ -9,9 +9,7 @@ tags:
 - java
 - functional-programming
 - functional-programming-for-java-developers
-- O'REILLY
 - 함수형프로그래밍
-- 오렐리
 ---
 
 ### 동시성 프로그램을 잘 작성해야 한다
