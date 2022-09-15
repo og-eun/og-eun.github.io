@@ -5,7 +5,7 @@ header-img: img/home-bg-geek.jpg
 email: dev.og.eun@gmail.com
 description: ":::::::::::::: description?"
 keyword: "OG, OG EUN, OG Blog, Web, Java, JavaScript"
-url: "https://og-eun.github.io" # your host, for absolute URL
+url: https://og-eun.github.io # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -60,8 +60,9 @@ kramdown:
 netease_comment: false
 
 # Analytics settings
-# Baidu Analytics
-# ba_track_id: [your track id]
+google_analytics:    UA-241232943-1
+
+
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
