@@ -1,5 +1,5 @@
 ---
-title: "「Effective Java」4 클래스와 인터페이스 (1)"
+title: "「Effective Java」4 Class n Interface : 클래스와 인터페이스 (1)"
 subtitle: "클래스와 멤버의 접근성을 제한하라"
 layout: post
 author: "OG"

@@ -1,5 +1,5 @@
 ---
-title: "「Effective Java」10 예외 (1)"
+title: "「Effective Java」10 Exception : 예외 (1)"
 subtitle: "예외는 진짜 예외 상황에만 사용하라"
 layout: post
 author: "OG"
