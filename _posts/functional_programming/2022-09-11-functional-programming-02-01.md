@@ -1,5 +1,5 @@
 ---
-title: "「Functional Programming for Java Developers」2 What is Functional Programming?"
+title: "「Functional Programming for Java Developers」2 함수형 프로그래밍 (1)"
 subtitle: "기본 원리 : 변경 가능한 상태 피하기"
 layout: post
 author: "OG"

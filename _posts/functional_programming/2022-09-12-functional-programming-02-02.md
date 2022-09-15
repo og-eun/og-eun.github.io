@@ -1,5 +1,5 @@
 ---
-title: "「Functional Programming for Java Developers」2 What is Functional Programming?"
+title: "「Functional Programming for Java Developers」2 함수형 프로그래밍 (2)"
 subtitle: "기본 원리 : 1등 시민으로서의 함수"
 layout: post
 author: "OG"

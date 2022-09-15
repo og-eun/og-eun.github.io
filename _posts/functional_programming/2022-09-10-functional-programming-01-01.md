@@ -1,6 +1,6 @@
 ---
-title: "「Functional Programming for Java Developers」1 Why Functional Programming?"
-subtitle: "왜 함수형 프로그래밍을 배워야 하는가?"
+title: "「Functional Programming for Java Developers」1 왜 함수형 프로그래밍을 배워야 하는가?"
+subtitle: "Why Functional Programming?"
 layout: post
 author: "OG"
 header-style: text
