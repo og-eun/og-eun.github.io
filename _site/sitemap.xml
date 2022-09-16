@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+    <url>
+        <loc>http://localhost:4000/2022/09/16/multithreaded-javascript-01-01/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/2022/09/14/functional-programming-02-02/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/2022/09/13/converting-circular-structure-to-JSON/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/2022/09/12/functional-programming-02-02/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/2022/09/11/functional-programming-02-01/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/2022/09/10/functional-programming-01-01/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/2022/09/09/daily-01/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/2022/09/05/effective-java-10-01/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/2022/09/04/effective-java-04-02/</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/2022/08/26/effective-java-04-01/</loc>
+    </url>
+    
+
+    
+    
+    
+    <url>
+        <loc>http://localhost:4000/404.html</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>http://localhost:4000/about/</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>http://localhost:4000/archive/</loc>
+    </url>
+    
+    
+    
+    
+    
+    
+    
+    <url>
+        <loc>http://localhost:4000/</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>http://localhost:4000/offline.html</loc>
+    </url>
+    
+    
+    
+    
+    
+    
+    
+</urlset>
