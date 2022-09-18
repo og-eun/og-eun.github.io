@@ -1,4 +1,0 @@
-I"�<h3 id="converting-circular-structure-to-json">Converting circular structure to JSON</h3>
-<p>테스트를 하다 위 에러를 발견하였다.
-구글링을 통해 순환 참조 시 발생하는 에러임을 확인하였다.</p>
-:ET
