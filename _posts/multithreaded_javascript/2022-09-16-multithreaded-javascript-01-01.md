@@ -1,5 +1,5 @@
 ---
-title: "「Multithreaded JavaScript」 스레드란?"
+title: "「Multithreaded JavaScript」 Thread : 스레드란?"
 subtitle: "Concurrency Beyond the Event Loop"
 layout: post
 author: "OG"
