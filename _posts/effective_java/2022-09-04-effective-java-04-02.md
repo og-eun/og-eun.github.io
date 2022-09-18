@@ -1,5 +1,5 @@
 ---
-title: "「Effective Java」4 Class n Interface : 클래스와 인터페이스 (2)"
+title: "「Effective Java」 Class n Interface : 클래스와 인터페이스 (2)"
 subtitle: "public 클래스에서는 public 필드가 아닌 접근자 메서드를 사용하라"
 layout: post
 author: "OG"

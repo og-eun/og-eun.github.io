@@ -1,5 +1,5 @@
 ---
-title: "「Functional Programming for Java Developers」2 함수형 프로그래밍 (3)"
+title: "「Functional Programming for Java Developers」 함수형 프로그래밍 (3)"
 subtitle: "기본 원리 : 람다와 클로저 & 고계함수"
 layout: post
 author: "OG"
